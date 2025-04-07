@@ -70,7 +70,7 @@ export function UpdateTaskSheet({ task, ...props }: UpdateTaskSheetProps) {
           </SheetDescription>
         </SheetHeader>
         <TaskForm<UpdateTaskSchema> form={form} onSubmit={onSubmit}>
-          <SheetFooter className="gap-2 pt-2 sm:space-x-0">
+          <SheetFooter className="!p-0 !pt-2 gap-2 sm:space-x-0 ">
             <SheetClose asChild>
               <Button type="button" variant="outline">
                 Cancel
